@@ -1,0 +1,42 @@
+.page{
+	margin: auto;
+	width: 1100px;
+	display: grid;
+	grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+	grid-template-rows: 100px 100px 100px 100px;
+	grid-gap: 20px;
+
+}
+.topnav{
+	margin: auto;
+	width: 1100px;
+	background-color: white;
+ 	overflow: hidden;
+ 	margin-bottom: 20px;
+}
+
+.topnav a{
+	float: right;
+	color: darkgrey;
+	padding: 30px 30px;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+a:hover {
+	color: lightsteelblue;
+}
+
+.banner{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.bannerText{
+	grid-column-start: 7;
+	grid-column-end: 9;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
